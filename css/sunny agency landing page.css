@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0rem;
+font-family:  Barlow;
+    font-size: 600;
+}
+
+.desktop_look {
+    display: none;
+}
+
+.mobile {
+    background-image: url(../image/mobile/image-header.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 33rem;
+    margin: 0rem;
+}
+
+p {
+    margin-block: 0px;
+}
+
+.head {
+    display: block;
+    justify-content: space-between;
+}
+
+.intro {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 4rem;
+    color: white;
+}
+
+.arrow_pointing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+}
+
+.transform {
+    max-width: 100%;
+}
+
+.brand_transformation {
+    
+    font-family: Fraunces;
+    font-size: 2rem;
+    max-width: 30rem;
+    padding: 3rem 0rem;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   margin-inline: 0rem;
+}
+
+.brand_def {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  hsl(232, 10%, 55%);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.more_info {
+    
+    text-align: center;
+    padding: 1rem 0rem;
+
+}
+
+.yellow_egg{
+    display: none;
+}
+
+.green_cup{
+    display: none;
+}
+
+.pink_cup {
+    max-width: 100%;
+}
+
+.audience_topic {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:  Fraunces;
+    font-size: 2rem;
+    padding: 3rem 0rem;
+}
+
+.audience_topic_def {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  hsl(232, 10%, 55%);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.raspberry {
+    background-image: url(../image/mobile/image-graphic-design.jpg);
+    background-size: 100%;
+    height: 33rem;
+    padding-top: 20rem;
+}
+
+.raspberry_desktop{
+    display: none;
+}
+
+.graphic {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:  hsl(167, 40%, 24%);
+    font-size: 2rem;
+}
+
+.graphic_def {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  hsl(167, 40%, 24%);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.orange {
+    background-image: url(../image/mobile/image-photography.jpg);
+    background-size: 100%;
+    height: 33rem;
+    padding-top: 23rem;
+}
+
+.orange_desktop{
+    display: none;
+}
+
+.photography {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.photography_def {
+    max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.testimonies {
+    font-family: Barlow;
+    font-size: 600;
+    color:  hsl(210, 4%, 67%);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem 0rem;
+}
+
+.emily {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5rem;
+}
+
+.emily_message {
+    color:  hsl(232, 10%, 55%);
+    max-width: 20rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 0rem;
+}
+
+.emily_signature {
+    text-align: center;
+}
+
+.emily_postion {
+    text-align: center;
+    padding: 1rem 0rem;
+    color:  hsl(210, 4%, 67%);
+}
+
+.thomas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5rem;
+}
+
+.thomas_message {
+    color:  hsl(232, 10%, 55%);
+    max-width: 20rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 0rem;
+}
+
+.thomas_signature {
+    text-align: center;
+}
+
+.thomas_position {
+    text-align: center;
+    padding: 1rem 0rem;
+    color:  hsl(210, 4%, 67%);
+}
+
+.jennie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5rem;
+}
+
+.jennie_message {
+    color:  hsl(232, 10%, 55%);
+    max-width: 20rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 0rem;
+}
+
+.jennie_signature {
+    text-align: center;
+}
+
+.jennie_position {
+    text-align: center;
+    padding: 1rem 0rem;
+    color:  hsl(210, 4%, 67%);
+}
+
+.pictures img{
+    height: 100%;
+    width: 100%;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px;  
+}
+
+.footer{
+   
+    height: 20rem;
+    background-color:   hsl(168, 51%, 53%);
+}
+
+.heads{
+    font-family: Fraunces;
+    font-size: 2rem;
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.help_center{
+    color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem 0rem;
+}
+
+.social_media{
+    display: flex;
+    justify-content:center;
+    padding-top: 1rem;
+}
+
+.social_media svg{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media (min-width:500px){
+    .desktop_look{
+        display: block;
+        background-image: url(../image/desktop/image-header.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50rem;
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+
+    button{
+        border: none;
+        border-radius: 1rem;
+        padding: 0.50rem 1rem;
+    }
+
+    .mobile_yellow{
+        display: none;
+    }
+
+    .yellow_egg{
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 100%;
+    }
+
+    .brand_info{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10rem;
+        text-align: left;
+    }
+
+    .green_cup{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .audience_info{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10rem;
+        text-align: left;
+    }    
+
+    .mobile_green{
+        display: none;
+    }
+
+    .raspberry{
+        display: none;
+    }
+
+    .raspberry_desktop{
+        display: block;
+        background-image: url(../image/desktop/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        text-align: left;
+        height: 30rem;
+        padding-top: 20rem;
+    }
+
+    .orange{
+        display: none;
+    }
+
+    .orange_desktop{
+        display: block;
+        background-image: url(../image/desktop/image-photography.jpg);
+        background-repeat: no-repeat;
+        height: 30rem;
+        padding-top: 20rem;
+    }
+
+    .comments{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem 0rem;
+    }
+
+    .pictures{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
